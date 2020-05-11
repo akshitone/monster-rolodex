@@ -23,7 +23,7 @@ class App extends React.Component {
       return (
         <React.Fragment>
           <h5 key={monster.id}> {monster.name} </h5>
-          <p> {monster.email} </p>
+          <h6> {monster.email} </h6>
         </React.Fragment>
       );
     });
